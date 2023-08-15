@@ -79,19 +79,18 @@ if [ -x /usr/bin/dircolors ]; then
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
-    alias rgrep='rgrep --color=auto'
+    #alias grep='grep --color=auto'
+    #alias fgrep='fgrep --color=auto'
+    #alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -113,29 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias clip="xclip -sel clip"
-
-PATH=$PATH:/usr/sbin
-PATH=$PATH:$HOME/go/bin
-EDITOR=vim
-
-# echo -en "\e]P0000000" #black
-# echo -en "\e]P82B2B2B" #darkgrey
-# echo -en "\e]P1D75F5F" #darkred
-# echo -en "\e]P9E33636" #red
-# echo -en "\e]P287AF5F" #darkgreen
-# echo -en "\e]PA98E34D" #green
-# echo -en "\e]P3D7AF87" #brown
-# echo -en "\e]PBFFD75F" #yellow
-# echo -en "\e]P48787AF" #darkblue
-# echo -en "\e]PC7373C9" #blue
-# echo -en "\e]P5BD53A5" #darkmagenta
-# echo -en "\e]PDD633B2" #magenta
-# echo -en "\e]P65FAFAF" #darkcyan
-# echo -en "\e]PE44C9C9" #cyan
-# echo -en "\e]P7E5E5E5" #lightgrey
-# echo -en "\e]PFFFFFFF" #white
-# 
-# echo -e '\e[?17;0;64c' #box cursor
-# 
-# clear #for background artifacting
+export EDITOR=vim
+export PATH="$PATH:/usr/sbin"

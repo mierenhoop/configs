@@ -1,0 +1,6 @@
+* {
+-XfcePanelWindow-popup-delay: 0;
+-XfcePanelWindow-popdown-delay: 0;
+}
+
+/*@import url("gtk-contained.css");*/

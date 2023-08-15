@@ -19,6 +19,9 @@ set shortmess=I
 
 set foldmethod=marker
 
+" no switch case indent
+set cino=:0
+
 autocmd FileType * setlocal et formatoptions-=cro
 autocmd FileType go setlocal noet
 autocmd FileType lua setlocal sw=2 sts=2
