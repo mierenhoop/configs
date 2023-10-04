@@ -31,4 +31,4 @@ Default-hdpi:
 .PHONY: clean
 
 clean:
-	rm -rf Adwaita st-0.9 Default-hdpi M
+	rm -rf Adwaita st Default-hdpi M

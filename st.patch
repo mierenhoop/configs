@@ -62,7 +62,7 @@ index 91ab8ca..f28b389 100644
 +	"rgb:8/8/8",
 +	"rgb:5/5/5",
 +	"rgb:1/1/1", /* default foreground colour */
-+	"rgb:9/b/8", /* default background colour */
++	"rgb:9/a/8", /* default background colour */
  };
  
  
