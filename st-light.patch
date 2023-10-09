@@ -1,0 +1,66 @@
+--- config.def.h	2022-10-04 19:41:26.000000000 +0200
++++ config.h	2023-10-10 00:38:59.009179363 +0200
+@@ -5,8 +5,8 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+-static int borderpx = 2;
++static char *font = "DejaVu Sans Mono:size=13:antialias=true:autohint=true";
++static int borderpx = 8;
+ 
+ /*
+  * What program is execed by st depends of these precedence rules:
+@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
+ /* Terminal colors (16 first used in escape sequence) */
+ static const char *colorname[] = {
+ 	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++	"rgb:1/1/1", // ok
++	"rgb:9/2/2", // gud
++	"rgb:0/5/0", // perfect
++	"rgb:6/3/0", // orange...
++	"rgb:2/2/8", // gud
++	"rgb:6/2/6", // perfect
++	"rgb:0/5/5", // fine
++	"rgb:e/e/e", // ?
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	"rgb:1/1/1", // ?
++	"rgb:9/1/1", // ok
++	"rgb:2/6/2", // heh
++	"rgb:8/6/0", // orange...
++	"rgb:2/2/8", // gud
++	"rgb:6/2/6", // heh
++	"rgb:0/0/5", // ?
++	"rgb:e/e/e", // ?
+ 
+ 	[255] = 0,
+ 
+ 	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
+-	"gray90", /* default foreground colour */
+-	"black", /* default background colour */
++	"rgb:3/3/3", // ok
++	"rgb:8/8/8", // ?
++	"rgb:1/1/1", /* default foreground colour */
++	"rgb:e/e/e", /* default background colour */
+ };
+ 
+ 
