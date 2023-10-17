@@ -23,14 +23,14 @@
 -	"magenta3",
 -	"cyan3",
 -	"gray90",
-+	"rgb:1/1/1", // ok
++	"rgb:1/1/1", // using light color will make htop look better
 +	"rgb:9/2/2", // gud
 +	"rgb:0/5/0", // perfect
 +	"rgb:6/3/0", // orange...
 +	"rgb:2/2/8", // gud
 +	"rgb:6/2/6", // perfect
 +	"rgb:0/5/5", // fine
-+	"rgb:e/e/e", // ?
++	"rgb:c/c/c", // bit darker for vim selection
  
  	/* 8 bright colors */
 -	"gray50",
