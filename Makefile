@@ -21,7 +21,7 @@ st-0.9.tar.gz:
 st/st: st-0.9.tar.gz
 	mkdir st
 	tar --strip-components=1 -C st -xzf st-0.9.tar.gz
-	patch -d st -p1 < st.patch
+	patch -d st -p1 < st-light.patch
 	make -C st
 
 Default-hdpi:

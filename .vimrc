@@ -27,9 +27,11 @@ set backspace=indent,eol,start
 
 autocmd FileType * setlocal et formatoptions-=cro
 autocmd FileType go setlocal noet
-autocmd FileType lua setlocal sw=2 sts=2
-autocmd FileType moon setlocal sw=2 sts=2
-autocmd FileType fennel setlocal sw=2 sts=2
+autocmd FileType lua setlocal ts=2 sw=2 sts=2
+autocmd FileType c setlocal ts=2 sw=2 sts=2
+autocmd FileType cpp setlocal ts=2 sw=2 sts=2
+autocmd FileType moon setlocal ts=2 sw=2 sts=2
+autocmd FileType fennel setlocal ts=2 sw=2 sts=2
 autocmd FileType make setlocal noet
 
 set incsearch nohlsearch smartcase
@@ -41,4 +43,16 @@ nnoremap k gk
 vnoremap j gj
 vnoremap k gk
 
+autocmd FileType go setlocal formatprg=goimports
+autocmd FileType c setlocal formatprg=clang-format
+
+" format and keep cursor position
+nnoremap gq gggqG<c-o><c-o>
+
 " nnoremap <space> zizz
+
+" to paste:
+" set paste
+
+" ascii drawing:
+" set ve=all

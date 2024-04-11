@@ -1,12 +1,12 @@
---- config.def.h	2022-10-04 19:41:26.000000000 +0200
-+++ config.h	2023-10-10 00:38:59.009179363 +0200
+--- a/config.def.h	2022-10-04 19:41:26.000000000 +0200
++++ b/config.def.h	2023-10-10 00:38:59.009179363 +0200
 @@ -5,8 +5,8 @@
   *
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 -static int borderpx = 2;
-+static char *font = "DejaVu Sans Mono:size=13:antialias=true:autohint=true";
++static char *font = "DejaVu Sans Mono:size=12:antialias=true:autohint=true";
 +static int borderpx = 8;
  
  /*
@@ -30,7 +30,7 @@
 +	"rgb:2/2/8", // gud
 +	"rgb:6/2/6", // perfect
 +	"rgb:0/5/5", // fine
-+	"rgb:c/c/c", // bit darker for vim selection
++	"rgb:d/d/d", // bit darker for vim selection
  
  	/* 8 bright colors */
 -	"gray50",
