@@ -1,5 +1,12 @@
 [user]
 	email = 46939409+mierenhoop@users.noreply.github.com
 	name = mierenhoop
+
+[includeIf "gitdir:~/school/"]
+    path = ~/.gitconfig-school
+
 [core]
 	editor = vim
+
+[commit]
+	verbose = true

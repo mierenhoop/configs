@@ -32,6 +32,7 @@ autocmd FileType c setlocal ts=2 sw=2 sts=2
 autocmd FileType cpp setlocal ts=2 sw=2 sts=2
 autocmd FileType moon setlocal ts=2 sw=2 sts=2
 autocmd FileType fennel setlocal ts=2 sw=2 sts=2
+autocmd FileType sh setlocal ts=2 sw=2 sts=2
 autocmd FileType make setlocal noet
 
 set incsearch nohlsearch smartcase
@@ -47,7 +48,8 @@ autocmd FileType go setlocal formatprg=goimports
 autocmd FileType c setlocal formatprg=clang-format
 
 " format and keep cursor position
-nnoremap gq gggqG<c-o><c-o>
+" nnoremap gq gggqG<c-o><c-o>
+nnoremap gq gggqG
 
 " nnoremap <space> zizz
 
