@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scp .bashrc .inputrc .tmux.conf .vimrc $1

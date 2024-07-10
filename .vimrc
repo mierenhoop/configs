@@ -47,6 +47,8 @@ vnoremap k gk
 autocmd FileType go setlocal formatprg=goimports
 autocmd FileType c setlocal formatprg=clang-format
 
+set textwidth=72
+
 " format and keep cursor position
 " nnoremap gq gggqG<c-o><c-o>
 nnoremap gq gggqG
