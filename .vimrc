@@ -25,7 +25,7 @@ set cino=:0
 " for non-debian compiles
 set backspace=indent,eol,start
 
-autocmd FileType * setlocal et formatoptions-=cro
+autocmd FileType * setlocal et formatoptions+=jcro
 autocmd FileType go setlocal noet
 autocmd FileType lua setlocal ts=2 sw=2 sts=2
 autocmd FileType c setlocal ts=2 sw=2 sts=2
@@ -33,6 +33,8 @@ autocmd FileType cpp setlocal ts=2 sw=2 sts=2
 autocmd FileType moon setlocal ts=2 sw=2 sts=2
 autocmd FileType fennel setlocal ts=2 sw=2 sts=2
 autocmd FileType sh setlocal ts=2 sw=2 sts=2
+autocmd FileType js setlocal ts=2 sw=2 sts=2
+autocmd FileType html setlocal ts=2 sw=2 sts=2
 autocmd FileType make setlocal noet
 
 set incsearch nohlsearch smartcase
@@ -46,6 +48,7 @@ vnoremap k gk
 
 autocmd FileType go setlocal formatprg=goimports
 autocmd FileType c setlocal formatprg=clang-format
+autocmd FileType cpp setlocal formatprg=clang-format
 
 set textwidth=72
 

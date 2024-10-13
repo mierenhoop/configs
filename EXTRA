@@ -1,0 +1,1 @@
+XFCE default terminal shortcut: `st tmux new-session -A "%s"`
