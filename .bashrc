@@ -106,7 +106,7 @@ alias rgi="rgrep -i"
 alias gg="git grep"
 alias ggi="git grep -i"
 alias gd="git diff"
-alias gs="gs"
+alias gs="git status"
 
 export TMPDIR=/tmp
 export EDITOR=vim
