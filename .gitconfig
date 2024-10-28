@@ -3,10 +3,20 @@
 	name = mierenhoop
 
 [includeIf "gitdir:~/school/"]
-    path = ~/.gitconfig-school
+	path = ~/.gitconfig-school
 
 [core]
 	editor = vim
+	excludesFile = ~/.gitignore
 
 [commit]
 	verbose = true
+
+[pull]
+	ff = only
+
+[push]
+	autoSetupRemote = true
+
+[grep]
+	fallbackToNoIndex = true
