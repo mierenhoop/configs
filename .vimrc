@@ -33,7 +33,8 @@ autocmd FileType cpp setlocal ts=2 sw=2 sts=2
 autocmd FileType moon setlocal ts=2 sw=2 sts=2
 autocmd FileType fennel setlocal ts=2 sw=2 sts=2
 autocmd FileType sh setlocal ts=2 sw=2 sts=2
-autocmd FileType js setlocal ts=2 sw=2 sts=2
+autocmd FileType javascript setlocal ts=2 sw=2 sts=2
+autocmd FileType css setlocal ts=2 sw=2 sts=2
 autocmd FileType html setlocal ts=2 sw=2 sts=2
 autocmd FileType proto setlocal ts=2 sw=2 sts=2
 autocmd FileType make setlocal noet
@@ -52,7 +53,7 @@ autocmd FileType c setlocal formatprg=clang-format
 autocmd FileType cpp setlocal formatprg=clang-format
 autocmd FileType proto setlocal formatprg=clang-format
 
-set textwidth=72
+autocmd FileType markdown setlocal textwidth=72
 
 " format and keep cursor position
 " nnoremap gq gggqG<c-o><c-o>
