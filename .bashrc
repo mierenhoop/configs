@@ -111,3 +111,4 @@ alias gs="git status"
 export TMPDIR=/tmp
 export EDITOR=vim
 export PATH="$PATH:/usr/sbin"
+export PATH="$PATH:$HOME/go/bin"
