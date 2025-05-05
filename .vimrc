@@ -4,6 +4,8 @@ let &t_ve= "\e[?25h\e[?112c"
 
 set t_Co=16
 
+set mouse=a
+
 set nocompatible
 set modeline
 set noswapfile
@@ -27,6 +29,8 @@ set cino=:0
 
 " for non-debian compiles
 set backspace=indent,eol,start
+
+let c_no_curly_error=1
 
 autocmd FileType * setlocal et formatoptions+=jcro
 autocmd FileType go setlocal noet
