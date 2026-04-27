@@ -107,7 +107,8 @@ alias gg="git grep"
 alias ggi="git grep -i"
 alias gd="git diff"
 alias gs="git status"
-
+alias yt-dlp-album="yt-dlp -f bestaudio --extract-audio --add-metadata \
+    --embed-thumbnail -o '%(playlist_index)s. %(title)s.%(ext)s'"
 export TMPDIR=/tmp
 export EDITOR=vim
 export PATH="$PATH:/usr/sbin"

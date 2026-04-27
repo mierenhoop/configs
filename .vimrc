@@ -7,7 +7,7 @@ set t_Co=16
 set mouse=a
 
 set nocompatible
-set modeline
+set nomodeline
 set noswapfile
 
 set encoding=utf-8
@@ -65,3 +65,4 @@ nnoremap gq gggqG
 
 " ascii drawing:
 " set ve=all
+
