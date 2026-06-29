@@ -1,0 +1,14 @@
+# Xfce services
+#xfce4-power-manager &
+#xfsettingsd &
+#xfce4-panel &
+## xfce4-notifyd &
+#
+## Optional desktop icons/background
+#xfdesktop &
+
+# Policy/auth
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Clipboard
+#wl-paste --watch cliphist store &

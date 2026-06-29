@@ -1,0 +1,27 @@
+<labwc_config>
+  <libinput>
+    <device category="default">
+      <naturalScroll>yes</naturalScroll>
+      <accelProfile>adaptive</accelProfile>
+      <pointerSpeed>0.3</pointerSpeed>
+      <tap>no</tap>
+      <disableWhileTyping>no</disableWhileTyping>
+    </device>
+  </libinput>
+  <keyboard>
+    <default />
+    <repeatRate>50</repeatRate>
+    <repeatDelay>300</repeatDelay>
+    <keybind key="C-A-t" onRelease="yes">
+      <action name="Execute" command="xfce4-terminal" />
+    </keybind>
+  </keyboard>
+  <mouse>
+    <default />
+    <context name="Client">
+      <mousebind button="A-Left" action="DoubleClick">
+        <action name="ToggleMaximize"></action>
+      </mousebind>
+    </context>
+  </mouse>
+</labwc_config>
