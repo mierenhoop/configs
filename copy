@@ -1,3 +1,10 @@
 #!/bin/sh
 
-scp .bashrc .inputrc .tmux.conf .vimrc $1
+mkdir -p ~/.config/nvim
+
+ln -fs $PWD/.bashrc    ~/.bashrc
+ln -fs $PWD/.gitconfig ~/.gitconfig
+ln -fs $PWD/.inputrc   ~/.inputrc
+ln -fs $PWD/.tmux.conf ~/.tmux.conf
+ln -fs $PWD/.vimrc     ~/.vimrc
+ln -fs $PWD/init.lua   ~/.config/nvim/init.lua
