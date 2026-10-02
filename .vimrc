@@ -20,7 +20,7 @@ set splitbelow splitright
 "set list
 "set listchars=tab:▸\ ,trail:·
 
-set shortmess=I
+set shortmess=It
 
 set foldmethod=marker
 

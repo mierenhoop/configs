@@ -97,6 +97,8 @@ vim.opt.smartindent = true
 -- no switch case indent
 vim.opt.cino = ":0"
 
+vim.g.c_no_curly_error = 1
+
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 

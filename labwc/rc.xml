@@ -1,8 +1,6 @@
 <labwc_config>
   <libinput>
     <device category="default">
-      <naturalScroll>yes</naturalScroll>
-      <accelProfile>adaptive</accelProfile>
       <pointerSpeed>0.3</pointerSpeed>
       <tap>no</tap>
       <disableWhileTyping>no</disableWhileTyping>
@@ -15,6 +13,9 @@
     <keybind key="C-A-t" onRelease="yes">
       <action name="Execute" command="xfce4-terminal" />
     </keybind>
+    <keybind key="Super_L" onRelease="yes">
+      <action name="Execute" command="xfce4-popup-whiskermenu" />
+    </keybind>
   </keyboard>
   <mouse>
     <default />
@@ -23,5 +24,20 @@
         <action name="ToggleMaximize"></action>
       </mousebind>
     </context>
+    <context name="Frame">
+      <mousebind button="W-Left" action="Press" />
+      <mousebind button="W-Left" action="Drag" />
+      <mousebind button="W-Right" action="Press" />
+      <mousebind button="W-Right" action="Drag" />
+      <mousebind button="A-Left" action="Drag">
+        <action name="Move" />
+      </mousebind>
+      <mousebind button="A-Right" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
   </mouse>
+  <windowSwitcher>
+    <osd show="yes" style="thumbnail" output="focused" />
+  </windowSwitcher>
 </labwc_config>

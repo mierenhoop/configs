@@ -113,10 +113,13 @@ alias rgi="rgrep -i"
 alias gg="git grep"
 alias ggi="git grep -i"
 alias gd="git diff"
+alias gdi="git diff --no-index"
 alias gs="git status"
 alias yt-dlp-album="yt-dlp -f bestaudio --extract-audio --add-metadata \
     --embed-thumbnail -o '%(playlist_index)s. %(title)s.%(ext)s'"
+#alias vi="nvim"
 export TMPDIR=/tmp
 export EDITOR=vim
+#export EDITOR=nvim
 export PATH="$PATH:/usr/sbin"
 export PATH="$PATH:$HOME/go/bin"
